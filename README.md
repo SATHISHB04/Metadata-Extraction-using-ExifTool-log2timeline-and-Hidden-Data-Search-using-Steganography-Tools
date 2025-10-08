@@ -68,27 +68,31 @@ sudo apt install plaso -y
 ```
 sudo apt install steghide -y
 ```
-- **Embed data**
+## -Embed data
+
 ```
 steghide embed -cf /home/kali/Downloads/wallpaper.jpg -ef /home/kali/Downloads/secret.txt
 ```
+![image](https://github.com/user-attachments/assets/4791e632-ca36-4e1f-9149-5633f480d1fc)
 
-
-- **Extract hidden data:**
+## -Extract hidden data:
 ```
 steghide extract -sf hidden.jpg
-
 ```
 
+![435686036-85520110-9150-417a-b6a9-28e559100cf7](https://github.com/user-attachments/assets/014c88ff-4f61-40d3-b9f3-1ffef40fc018)
 
-### Using binwalk – for file analysis
-```bash
+
+## Using binwalk – for file analysis
+```
 sudo apt install binwalk -y
 binwalk suspicious.jpg
 ```
-```bash
+```
 binwalk /home/kali/Downloads/wallpaper.jpg
 ```
+![435687161-b26be271-0680-491f-8868-1216de6fd7eb](https://github.com/user-attachments/assets/2298b20a-6f79-4231-99e6-b48f7860732c)
+
 
 
 ## RESULT:
